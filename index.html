@@ -5,25 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="/css/style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+ <img class="bg__top" src="/images/bg-pattern-top.svg" alt="">
+ <img class="bg__botom" src="/images/bg-pattern-bottom.svg" alt="">
+
+  
     <div class="container">
+    
 
       <div role="main" class="card">
-        <div class="card__UpBackground"></div>
+
+        <div class="card__upBackground"></div>
         <div role="img" class="card__photoProfile"></div>
         <div class="card__downBackground">
             <h1 class="card__downBackground--userName">  Victor Crest <span>26</span></h1>
             <p role="text" class="card_downBackground--userCountry">London</p>
         </div>
+        
         <div role="doc-notice" class="card__userEstadistics">
           <p class="card__userEstadistics--followers">80K <span>Followers</span></p>
           <p class="card__userEstadistics--likes">803K <span>Likes</span></p>
@@ -35,9 +43,6 @@
 
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Edgar_badillo</a>.
-  </div>
+  
 </body>
 </html>
