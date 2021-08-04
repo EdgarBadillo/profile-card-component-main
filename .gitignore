@@ -4,11 +4,10 @@
 #####################################################
 *.sketch
 *.fig
-*.svg
-*.png
-*.jpg
-*.md
-*.map
+
+
+
+
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
