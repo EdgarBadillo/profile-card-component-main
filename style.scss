@@ -57,7 +57,7 @@ body{
             
             height: 120px;
             width: 300px;
-            border-radius: 10% 10% 0 0%;
+            border-radius: .5em .5em 0 0%;
             background-image: url(/images/bg-pattern-card.svg);
             background-repeat: no-repeat;
             
@@ -99,9 +99,39 @@ body{
                 color: $dark_gray;
                 text-align: center;
                 font-size: 14px;
+                border-bottom: rgb(204, 189, 189) solid;
+                
+                border-width: 1px;
+                padding-bottom: 1rem;
+                
             }
         }
             
+        .card__userEstadistics{
+
+            background-color: white;
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 .5em .5em;
+
+            .card__userEstadistics--followers, .card__userEstadistics--likes, .card__userEstadistics--photos{
+
+                font-weight: bold;
+
+                    span{
+
+                        color: $dark_grayish_blue;
+                        font-size: 9px;
+                        letter-spacing: 1px;
+                        
+                    }
+            }
             
+
+        }   
     }
 }
